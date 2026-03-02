@@ -1,0 +1,18 @@
+
+> example-next@0.0.0 dev
+> next dev
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+
+✓ Starting...
+[MDX] generated files in 47.14789700000006ms
+[MDX] started dev server
+✓ Ready in 1633ms
+○ Compiling /[lang]/docs/[[...slug]] ...
+⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET /en/docs/0-course-setup/setup 200 in 27.2s (compile: 23.5s, proxy.ts: 217ms, generate-params: 2.7s, render: 3.6s)
+ GET /en/docs/0-course-setup/setup 200 in 919ms (compile: 122ms, proxy.ts: 28ms, generate-params: 86ms, render: 769ms)
+[MDX] closing dev server
+[?25h

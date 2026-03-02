@@ -3,6 +3,13 @@ import '../global.css';
 import { Inter } from 'next/font/google';
 import { defineI18nUI } from 'fumadocs-ui/i18n';
 import { i18n } from '@/lib/i18n';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  icons: {
+    icon: '/images/favicon.png',
+  },
+};
 
 const inter = Inter({
   subsets: ['latin'],
@@ -35,8 +42,8 @@ export default async function Layout({
           <footer className="w-full mt-auto px-6 py-4 border-t border-secondary text-sm text-muted-foreground flex justify-between items-center bg-background z-50">
             <p>
               Curriculum adapted from the original{' '}
-              <a href="https://github.com/microsoft/AI-For-Beginners" target="_blank" rel="noopener noreferrer" className="underline">
-                Microsoft "AI-For-Beginners"
+              <a href="https://github.com/RiWoTWeb3/AI-For-Beginners" target="_blank" rel="noopener noreferrer" className="underline">
+                "AI-For-Beginners"
               </a>{' '}
               repository.
             </p>
