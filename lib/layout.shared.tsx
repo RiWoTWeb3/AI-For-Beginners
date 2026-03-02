@@ -1,7 +1,7 @@
 import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
 
 export const gitConfig = {
-  user: 'microsoft',
+  user: 'RiWoTWeb3',
   repo: 'AI-For-Beginners',
   branch: 'main',
 };
